@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 1.5em;
+    margin-bottom: 3em;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background: rgb(30,28,66);
+    background: linear-gradient(90deg, rgba(30,28,66,1) 0%, rgba(44,9,121,1) 43%, rgba(96,92,119,1) 100%);
+}
+
+.navbar__element {
+    /* padding: 0.5em 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    margin: 0 1em; */
+    text-decoration: none;
+}
+
+.navbar__logout-button {
+    margin: auto 1em;
+}
+
+.navbar__right-button {
+    margin-left: 1em;
+}
